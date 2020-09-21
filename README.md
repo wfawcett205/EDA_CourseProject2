@@ -35,18 +35,19 @@ The zip file contains two files:
       > NEI <- readRDS("summarySCC_PM25.rds")
       > head(NEI)
 
-             	fips         SCC   	Pollutant 	Emissions  	type 	year
+         	fips         SCC   	Pollutant 	Emissions  	type 	year
 	4   	09001 	10100401  	PM25-PRI    	15.714 		POINT 	1999
 	8   	09001 	10100404  	PM25-PRI  	234.178		POINT 	1999
 	12 	09001 	10100501  	PM25-PRI     	0.128 		POINT 	1999
-	16 	09001 	10200401  	PM25-PRI     	2.036 		POINT 	1999
+	16 	09001 	10200401  	PM25-PRI     	2.036 		POINT 	1999		
 	20	09001 	10200504 	PM25-PRI    	0.388 		POINT 	1999
 	24 	09001 	10200602  	PM25-PRI     	1.490 		POINT 	1999
 
+
       1. fips:       A five-digit number (represented as a string) indicating the 
-                  U.S. county
+                     U.S. county
       2. SCC:        The name of the source as indicated by a digit string 
-                  (see source code classification table)
+                     (see source code classification table)
       3. Pollutant:  A string indicating the pollutant
       4. Emissions:  Amount of PM2.5 emitted, in tons
       5. type:       The type of source (point, non-point, on-road, or non-road)
