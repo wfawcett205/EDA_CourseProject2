@@ -18,7 +18,7 @@ For each question
 	2. Is the submitted R code appropriate for construction of the submitted 
 	   plot?
 	
-##Data
+## Data
 
 The data for Data for Peer Assessment [29Mb] this assignment are available from 
 the course web site as a single zip file:
@@ -69,14 +69,14 @@ reading in each file can be done with the following code:
 as long as each of those files is in your current working directory (check by 
 calling dir() and see if those files are in the listing).
 
-Assignment
+## Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory 
 database and see what it says about fine particulate matter pollution in the 
 United states over the 10-year period 1999-2008. You may use any R package you 
 want to support your analysis.
 
-Questions
+## Questions
 
 You must address the following questions and tasks in your exploratory analysis.
 For each question/task you will need to make a single plot. Unless specified, 
@@ -108,7 +108,7 @@ you can use any plotting system in R to make your plot.
       (fips == "06037"). Which city has seen greater changes over time in motor 
       vehicle emissions?
 
-Making and Submitting Plots
+## Making and Submitting Plots
 
 For each plot you should
 
